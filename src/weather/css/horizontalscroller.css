@@ -1,0 +1,18 @@
+.hs,.ws{
+    overflow: auto;
+    display: grid;
+    grid-gap: 10px;
+}
+.hs{
+    grid-template-columns: repeat(48, 150px);
+}
+.ws{
+    grid-template-columns: repeat(7, 190px);
+}
+.hide-scroll{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.hide-scroll::-webkit-scrollbar{
+    display: none;
+}
